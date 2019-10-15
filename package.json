@@ -18,6 +18,7 @@
     "watch": "node build/build.js -w",
     "help": "node build/build.js --help",
     "prepublish": "node build/build.js --prepublish",
+    "prepare": "node build/build.js --prepublish",
     "test:visual": "node test/runTest/server.js",
     "test": "node build/build.js",
     "mktest": "node test/build/mktest.js",
