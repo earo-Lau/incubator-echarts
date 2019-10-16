@@ -335,7 +335,7 @@ function singleEnterEmphasis(el) {
         return;
     }
 
-    var useHoverLayer = el.useHoverLayer && zr.painter.type === 'canvas';
+    var useHoverLayer = el.useHoverLayer;
     el.__highlighted = useHoverLayer ? 'layer' : 'plain';
 
     var elTarget = el;
