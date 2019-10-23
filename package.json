@@ -1,5 +1,5 @@
 {
-    "name": "echarts",
+  "name": "echarts",
     "version": "4.3.0",
     "description": "A powerful charting and visualization library for browser",
     "license": "Apache-2.0",
@@ -18,7 +18,6 @@
         "watch": "node build/build.js -w",
         "help": "node build/build.js --help",
         "prepublish": "node build/build.js --prepublish",
-        "postinstall": "node build/build.js --prepublish",
         "test:visual": "node test/runTest/server.js",
         "test": "node build/build.js",
         "mktest": "node test/build/mktest.js",
