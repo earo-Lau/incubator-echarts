@@ -18,7 +18,7 @@
     "watch": "node build/build.js -w",
     "help": "node build/build.js --help",
     "prepublish": "node build/build.js --prepublish",
-    "prepare": "node build/build.js --prepublish",
+    "postinstall": "node build/build.js --prepublish",
     "test:visual": "node test/runTest/server.js",
     "test": "node build/build.js",
     "mktest": "node test/build/mktest.js",
@@ -27,9 +27,7 @@
     "lint:dist": "echo 'It might take a while. Please wait ...' && ./node_modules/.bin/jshint --config .jshintrc-dist dist/echarts.js"
   },
   "dependencies": {
-    "zrender": "git+https://github.com/earo-Lau/zrender.git"
-  },
-  "devDependencies": {
+    "zrender": "git+https://github.com/earo-Lau/zrender.git"，
     "@babel/core": "7.3.4",
     "@babel/helper-module-transforms": "7.0.0-beta.31",
     "@babel/helper-simple-access": "7.0.0-beta.31",
